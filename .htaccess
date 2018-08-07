@@ -14,7 +14,3 @@ RewriteRule . /skylightsocial/index.php [L]
 //ggfdhfhhfhf
 //hfhfhfhfhfhfhf
 //hfhhhfhfdhhffdh
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /skylightsocial/index.php [L]
