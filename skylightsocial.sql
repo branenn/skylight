@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: localhost
 -- ------------------------------------------------------
--- Server version	10.1.21-MariaDB
+-- Server version	10.1.21-MariaDBdada
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -331,8 +331,8 @@ CREATE TABLE `wp_options` (
 
 LOCK TABLES `wp_options` WRITE;
 /*!40000 ALTER TABLE `wp_options` DISABLE KEYS */;
-INSERT INTO `wp_options` VALUES (1,'siteurl','http://localhost/skylightsocial','yes');
-INSERT INTO `wp_options` VALUES (2,'home','http://localhost/skylightsocial','yes');
+INSERT INTO `wp_options` VALUES (1,'siteurl','http://localhost/skylightsocial1','yes');
+INSERT INTO `wp_options` VALUES (2,'home','http://localhost/skylightsocial1','yes');
 INSERT INTO `wp_options` VALUES (3,'blogname','SkyLight Social','yes');
 INSERT INTO `wp_options` VALUES (4,'blogdescription','SkyLight Social','yes');
 INSERT INTO `wp_options` VALUES (5,'users_can_register','1','yes');
